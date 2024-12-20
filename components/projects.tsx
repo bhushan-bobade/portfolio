@@ -44,7 +44,7 @@ export function Projects() {
         <div className="text-center space-y-4">
           <h2 className="text-3xl font-bold">Projects</h2>
           <p className="text-muted-foreground max-w-[600px] mx-auto">
-            Here are some of the projects I've worked on. Each one has taught me something new and exciting!
+            Here&apos;s what I&apos;ve worked on. Each project has taught me something new and exciting!
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -76,8 +76,6 @@ export function Projects() {
                       <Github className="mr-2 h-4 w-4" />
                       GitHub
                     </a>
-                  </Button>
-                  <Button size="sm" asChild>
                   </Button>
                 </CardFooter>
               </Card>

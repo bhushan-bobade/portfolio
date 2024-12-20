@@ -1,9 +1,11 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
+// Skills array remains the same
 const skills = [
   { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
   { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
@@ -36,7 +38,13 @@ const SkillCard: React.FC<{ skill: { name: string; icon: string }; index: number
       </CardHeader>
       <CardContent>
         <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center">
-          <img src={skill.icon} alt={skill.name} className="w-10 h-10 object-contain" />
+          <Image
+            src={skill.icon}
+            alt={`${skill.name} icon`}
+            width={40}
+            height={40}
+            className="object-contain"
+          />
         </div>
       </CardContent>
     </Card>
@@ -55,7 +63,7 @@ const Skills: React.FC = () => {
         <div className="text-center space-y-4">
           <h2 className="text-3xl font-bold">Skills & Expertise</h2>
           <p className="text-muted-foreground max-w-[600px] mx-auto">
-            Here are some of the technologies and tools I'm proficient in. I'm always eager to learn more!
+            Here&apos;s what I&apos;m proficient in. I&apos;m always eager to learn more!
           </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
