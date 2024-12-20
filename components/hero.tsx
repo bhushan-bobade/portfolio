@@ -13,7 +13,7 @@ export function Hero() {
         className="text-center space-y-8"
       >
         <motion.img
-          src="/avatar.jpg"
+          src="/profile.jpg"
           alt="Bhushan Bobade"
           className="w-26 h-32 rounded-full mx-auto mb-8"
           initial={{ scale: 0 }}
