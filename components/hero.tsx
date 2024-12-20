@@ -43,7 +43,7 @@ export function Hero() {
         <div>
           </div>
         <Link
-            href="https://drive.google.com/file/d/1Cf-7QtJreGLo-N22F-6lgBR_DCuEkOLJ/view?usp=drive_link"
+            href="https://drive.google.com/file/d/18jDA_TQ1oq3Ug5s4ZkDbFs3-6FtgXNSQ/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
